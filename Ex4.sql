@@ -41,6 +41,9 @@ VALUES
 ("Kiwi", "Marrom", 8, 5),
 ("Pera", "Verde", 10, 5);
 
+SELECT * FROM tb_produto;
+
+
 SELECT nome_fruta, cor, preco FROM tb_produto
 WHERE preco > 50;
 
